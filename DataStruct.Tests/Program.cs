@@ -4,13 +4,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DataStruct.StorageStructure;
+using DataStruct.Algorithm;
 
 namespace DataStruct.Tests
 {
     class Program
     {
+
+
+
         static void Main(string[] args)
         {
+            int MaxValue = 0x7fffffff;
+            int MinValue = unchecked((int)0x80000000);
+
+
+
+            Power power = new Power();
+            power.SeekPower(16);
+            Console.Read();
+
+            Prime prime = new Prime();
+            List<int> lt_prime = prime.SeekPrime(101);
+            lt_prime.ForEach(item => Console.Write(item + " "));
+            Console.Read();
+
+
+
             //@线性-链表
             LinkList<string> linklist = new LinkList<string>();
             linklist.Add("1");
