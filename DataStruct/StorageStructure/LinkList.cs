@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStruct
+namespace DataStruct.StorageStructure
 {
     /// <summary>
     /// 线性表-链式

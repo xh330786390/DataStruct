@@ -39,10 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DictionaryNew.cs" />
-    <Compile Include="LinkList.cs" />
-    <Compile Include="SequenList.cs" />
+    <Compile Include="StorageStructure\DictionaryNew.cs" />
+    <Compile Include="StorageStructure\LinkList.cs" />
+    <Compile Include="StorageStructure\SequenList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Algorithm\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
